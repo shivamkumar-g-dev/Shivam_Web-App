@@ -15,11 +15,13 @@ public class WelcomeController {
 	    return "index";
 	}
 
-	@GetMapping("/req-param")
-	public String createUser(@RequestParam(name="user") String name, Model model) {
+	@GetMapping("/sign-up")
+//	public String createUser(@RequestParam(name="user") String name, Model model) {
 
-	    model.addAttribute("user", name);
-
+//	    model.addAttribute("user", name);
+	public String createUser() {
+	
+		System.out.println("WelcomeController.greeting()");
 	    return "success";
 	}
 
