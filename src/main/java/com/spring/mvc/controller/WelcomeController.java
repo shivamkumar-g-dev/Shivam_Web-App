@@ -10,18 +10,17 @@ public class WelcomeController {
 
 	@GetMapping("/")
 	public String greeting() {
+		
 		System.out.println("WelcomeController.greeting()");
-		return "index";
+	    return "index";
 	}
 
 	@GetMapping("/req-param")
-	public String createUser(@RequestParam(name = "user") String name, Model model) {
-		
-		model.addAttribute("user", name);
+	public String createUser(@RequestParam(name="user") String name, Model model) {
 
-		System.out.println("WelcomeController.greeting :" + name);
+	    model.addAttribute("user", name);
 
-		return "success";
+	    return "success";
 	}
 
 }
