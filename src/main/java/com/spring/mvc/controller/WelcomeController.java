@@ -16,11 +16,10 @@ public class WelcomeController {
 	}
 
 	@GetMapping("/sign-up")
-//	public String createUser(@RequestParam(name="user") String name, Model model) {
-
-//	    model.addAttribute("user", name);
-	public String createUser() {
-	
+	public String createUser(@RequestParam(name="user") String name, Model model) {
+		
+	    model.addAttribute("user", name);
+	    
 		System.out.println("WelcomeController.greeting()");
 	    return "success";
 	}
