@@ -43,11 +43,13 @@ button{
 
 <h2>Sign Up</h2>
 
+<<<<<<< Updated upstream
 localhost:8080/WebApp/signupUser
+=======
+<form action="${pageContext.request.contextPath}/createUser" method="post">
+>>>>>>> Stashed changes
 
-<form action="${pageContext.request.contextPath}/signupUser" method="post">
-
-<label>Username</label>
+<label>username</label>
 <input type="text" name="username" required>
 
 <label>Department</label>
