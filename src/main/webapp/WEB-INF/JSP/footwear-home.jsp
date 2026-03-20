@@ -8,7 +8,8 @@
 </head>
 <body bgcolor="pink">
 
-	<h1>Welcome ! This is your profile  Mr. ${user}</h1>
+
+	<h1>Hello This is FootWear Section How may i help you</h1>
 
 </body>
 </html>

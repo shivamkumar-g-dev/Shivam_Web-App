@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Spring MVC Project</title>
+<title>Insert title here</title>
 </head>
-<body bgcolor="pink">
+<body>
 
-	<h1>Welcome ! This is your profile  Mr. ${user}</h1>
-
+	<h1>Welcome ! This is your  ${firstCookie}</h1>
 </body>
 </html>

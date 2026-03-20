@@ -1,14 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Spring MVC Project</title>
+<title>Insert title here</title>
 </head>
-<body bgcolor="pink">
-
-	<h1>Welcome ! This is your profile  Mr. ${user}</h1>
+<body>
+	<h1>Hello This is Electronic Section How may i help you</h1>
 
 </body>
 </html>
