@@ -10,7 +10,7 @@
 
 <h2>Update Employee Details</h2>
 
-<form action="updateEmployee" method="post">
+<form action="${pageContext.request.contextPath}/updateEmployee" method="post">
 
 	<input type="hidden" name="id" value="${employee.id}" />
 

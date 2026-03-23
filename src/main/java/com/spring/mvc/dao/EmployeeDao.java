@@ -22,7 +22,7 @@ public class EmployeeDao {
     
     public void saveEmployee(Employee emp) {
 		System.out.println("EmployeeDao.saveEmployee()");
-		hibernateTemplate.save(emp);
+		hibernateTemplate.saveOrUpdate(emp);   
 	}
 
 
@@ -41,6 +41,4 @@ public class EmployeeDao {
             hibernateTemplate.delete(emp);
         }
     }
-	
-
 }
