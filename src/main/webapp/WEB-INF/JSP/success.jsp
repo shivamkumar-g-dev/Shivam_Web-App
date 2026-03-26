@@ -6,7 +6,6 @@
 <meta charset="UTF-8">
 <title>Spring MVC Project</title>
 </head>
-<<<<<<< Updated upstream
 <body bgcolor="seagreen">
 =======
 <body bgcolor="pink">
@@ -16,7 +15,6 @@
 	<h1>Welcome ! Your username is : Mr. ${employee.username}</h1>
 	<h1>Welcome ! Your department is :  ${employee.department}</h1>
 	<h1>Welcome ! Your address is : . ${employee.address}</h1>
->>>>>>> Stashed changes
 
 	<h1>Welcome ! Your username is : Mr. ${username}</h1>
 	<h1>Welcome ! Your department is : Mr. ${department}</h1>
