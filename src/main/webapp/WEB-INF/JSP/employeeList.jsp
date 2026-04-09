@@ -14,7 +14,7 @@
         <th>ID</th>
         <th>Name</th>
         <th>Department</th>
-        <th>Address</th>
+        <th>Salary</th>
     </tr>
     <c:forEach var="employee" items="${employees}">
         <tr>
@@ -24,14 +24,6 @@
             <td>${employee.address}</td>
         </tr>
     </c:forEach>
-    
-    <c:forEach var="emp" items="${employees}">
-    	${emp.username} - ${emp.department} - ${emp.address}
-
-    	<a href="edit/${emp.id}">Edit</a>
-    	<a href="delete/${emp.id}">Delete</a>
-    	<br><br>
-	</c:forEach>
 </table>
 
 
